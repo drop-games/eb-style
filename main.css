@@ -8,10 +8,6 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 * { margin: 0; padding: 0; }
-body { line-height: 1.5; -webkit-font-smoothing: antialiased;
-    font-family: 'NovaBlade', sans-serif;
-}
-
 /* === VARIABLES === */
 :root {
     /* Valve Red Theme */
@@ -63,6 +59,12 @@ body { line-height: 1.5; -webkit-font-smoothing: antialiased;
     --radius: 4px;
     --radius-lg: 8px;
     --radius-xl: 12px;
+}
+
+body { line-height: 1.5; -webkit-font-smoothing: antialiased;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    font-family: 'NovaBlade', sans-serif;
 }
 
 
