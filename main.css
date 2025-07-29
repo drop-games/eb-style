@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'NovaGothic';
+    src: url('./fonts/EonBladeGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 *, *::before, *::after { box-sizing: border-box; }
 * { margin: 0; padding: 0; }
@@ -62,9 +70,14 @@
 }
 
 body { line-height: 1.5; -webkit-font-smoothing: antialiased;
-    color: var(--text-primary);
+    color: var(--text-secondary);
     background-color: var(--bg-primary);
     font-family: 'NovaBlade', sans-serif;
+}
+
+h1, h2{
+    color: var(--text-primary);
+    font-family: 'NovaGothic', sans-serif;
 }
 
 
