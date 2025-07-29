@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'NovaBlade';
+    src: url('/fonts/NovaBlade-Regular.ttf') format('ttf'),
+    url('/fonts/NovaBlade-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NovaBlade', sans-serif;
+}
